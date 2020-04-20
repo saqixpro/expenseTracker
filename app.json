@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Expense Tracker ",
+    "slug": "expenseTracker",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "owner": "saqixpro",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.saqixpro.expensetracker",
+      "icon": "./assets/icon.png",
+      "permissions": [],
+      "versionCode": 3,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6699725424289089~2859557628"
+      }
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+      }
+    },
+    "description": "Expense Tracker App is made precisely for those users who want to save their money, expense tracker is really handy tool that will show up very detailed comparisons and tracking of your income and your expenses which can be daily monthly or even annual."
+  }
+}
